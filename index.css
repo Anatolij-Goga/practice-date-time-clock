@@ -1,68 +1,77 @@
 body {
-  background-image: url(https://images.pexels.com/photos/1323550/pexels-photo-1323550.jpeg);
+  background-image: url(https://i.ibb.co/5nX3rM5/pexels-lumn-167699.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 .clock {
   width: 550px;
   height: 550px;
-  background-image: url(https://i.ibb.co/dBGxSK1/hiclipart-com-3.png);
+  background-image: url(https://i.ibb.co/LNC5fw5/kisspng-clock-face-exit-santa-cruz-clip-art-clock-no-hands-png-file-5a7a005a178fd4-52555481151794492.png);
   background-color: rgba(255, 255, 255, 0);
   background-size: cover;
   border-radius: 50%;
   position: relative;
-  left: 525px;
+  left: 700px;
 }
+
 .clock-arrow {
   position: absolute;
   background-color: black;
   transform-origin: bottom;
   transform: translateX(-50%);
-  border-top-right-radius: 10px;
-  border-top-left-radius: 10px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
 }
+
 .clock-center {
   position: absolute;
   background-color: black;
   top: 268px;
   left: 268px;
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
   border-radius: 50%;
 }
+
 .clock-seconds__arrow {
   bottom: 50%;
   left: 50%;
   width: 5px;
   height: 40%;
 }
+
 .clock-minutes__arrow {
   bottom: 50%;
   left: 50%;
   width: 7px;
   height: 33%;
 }
+
 .clock-hours__arrow {
   bottom: 50%;
   left: 50%;
   width: 12px;
   height: 24%;
 }
+
 .date {
   width: 100px;
   height: 100px;
   color: black;
 }
+
 .calendar {
   display: flex;
   justify-content: space-between;
 }
+
 .date-style {
   display: flex;
   font-size: 40px;
   font-weight: 900;
   text-shadow: 3px 3px 2px #cecbcd;
 }
+
 .digital-clock {
   text-align: center;
   font-size: 60px;
